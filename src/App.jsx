@@ -1,12 +1,20 @@
 
 import './App.css'
+import Blog from './components/Blog/Blog'
+import Bookmarks from './components/Book-marks/Bookmarks'
+import Header from './components/Header/Header'
 
 function App() {
 
 
   return (
     <>
-     <h1 className='text-5xl p-10 text-center bg-slate-900 text-white'>SPA knowledge cafe</h1>
+    
+     <Header></Header>
+     <div className='md:flex'>
+     <Blog></Blog>
+     <Bookmarks></Bookmarks>
+     </div>
     </>
   )
 }
