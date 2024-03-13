@@ -7,22 +7,11 @@
       "discountPrice": 361,
       "inStock": true,
       "rating": 4.7,
+      "author": "Jhankar Mahbub",
+      "img":"https://images.pexels.com/photos/1385472/pexels-photo-1385472.jpeg",
       "reviews": [
-        {
-          "id": 1,
-          "name": "Jhankar Mahbub",
-          "review": "Amar ei boi khubi valo kine felo"
-        },
-        {
-          "id": 2,
-          "name": "Azizul Islam Milton",
-          "review": "Kono kotha hobe na sera boi sera"
-        },
-        {
-          "id": 2,
-          "name": "Azizul Islam Milton",
-          "review": "Kono kotha hobe na sera boi sera"
-        }
+        "beginners",
+        "es6"
       ]
     },
     {
@@ -33,22 +22,11 @@
       "discountPrice": 225,
       "inStock": true,
       "rating": 4.5,
+      "author": "Jhankar Mahbub",
+      "img":"https://images.pexels.com/photos/1385472/pexels-photo-1385472.jpeg",
       "reviews": [
-        {
-          "id": 1,
-          "name": "Jhankar Mahbub",
-          "review": "Amar ei boi khubi valo kine felo"
-        },
-        {
-          "id": 2,
-          "name": "Azizul Islam Milton",
-          "review": "Kono kotha hobe na sera boi sera"
-        },
-        {
-          "id": 2,
-          "name": "Azizul Islam Milton",
-          "review": "Kono kotha hobe na sera boi sera"
-        }
+        "beginners",
+        "es6"
       ]
     },
     {
@@ -59,22 +37,11 @@
       "discountPrice": 258,
       "inStock": true,
       "rating": 4.9,
+      "author": "Jhankar Mahbub",
+      "img":"https://images.pexels.com/photos/1385472/pexels-photo-1385472.jpeg",
       "reviews": [
-        {
-          "id": 1,
-          "name": "Jhankar Mahbub",
-          "review": "Amar ei boi khubi valo kine felo"
-        },
-        {
-          "id": 2,
-          "name": "Azizul Islam Milton",
-          "review": "Kono kotha hobe na sera boi sera"
-        },
-        {
-          "id": 2,
-          "name": "Azizul Islam Milton",
-          "review": "Kono kotha hobe na sera boi sera"
-        }
+        "beginners",
+        "es6"
       ]
     },
     {
@@ -85,22 +52,11 @@
       "discountPrice": 275,
       "inStock": true,
       "rating": 5,
+      "author": "Jhankar Mahbub",
+      "img":"https://images.pexels.com/photos/1385472/pexels-photo-1385472.jpeg",
       "reviews": [
-        {
-          "id": 1,
-          "name": "Jhankar Mahbub",
-          "review": "Amar ei boi khubi valo kine felo"
-        },
-        {
-          "id": 2,
-          "name": "Azizul Islam Milton",
-          "review": "Kono kotha hobe na sera boi sera"
-        },
-        {
-          "id": 3,
-          "name": "Rokibul Hasan Rokib",
-          "review": "Kono kotha hobe na sera boi sera"
-        }
+       "beginners",
+       "es6"
       ]
     },
     {
@@ -111,22 +67,11 @@
       "discountPrice": 258,
       "inStock": true,
       "rating": 5,
+      "author": "Jhankar Mahbub",
+      "img":"https://images.pexels.com/photos/1385472/pexels-photo-1385472.jpeg",
       "reviews": [
-        {
-          "id": 1,
-          "name": "Jhankar Mahbub",
-          "review": "Amar ei boi khubi valo kine felo"
-        },
-        {
-          "id": 2,
-          "name": "Azizul Islam Milton",
-          "review": "Kono kotha hobe na sera boi sera"
-        },
-        {
-          "id": 3,
-          "name": "Rokibul Hasan Rokib",
-          "review": "Kono kotha hobe na sera boi sera"
-        }
+        "beginners",
+        "es6"
       ]
     },
     {
@@ -137,22 +82,11 @@
       "discountPrice": 206,
       "inStock": true,
       "rating": 5,
+      "author": "Jhankar Mahbub",
+      "img":"https://images.pexels.com/photos/1385472/pexels-photo-1385472.jpeg",
       "reviews": [
-        {
-          "id": 1,
-          "name": "Jhankar Mahbub",
-          "review": "Amar ei boi khubi valo kine felo"
-        },
-        {
-          "id": 2,
-          "name": "Azizul Islam Milton",
-          "review": "Kono kotha hobe na sera boi sera"
-        },
-        {
-          "id": 3,
-          "name": "Rokibul Hasan Rokib",
-          "review": "Kono kotha hobe na sera boi sera"
-        }
+        "beginners",
+       "es6"
       ]
     }
   ]
