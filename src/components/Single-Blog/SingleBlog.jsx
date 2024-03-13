@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import './SingleBlog.css'
 import { FaBookmark } from "react-icons/fa";
 
-const SingleBlog = ({blog, handleAddToBookMark}) => {
+const SingleBlog = ({blog, handleAddToBookMark,handleMarkAsRead}) => {
     // console.log(blog)
     const {name, image, author, img,rating,originalPrice,reviews} = blog;
     return (
@@ -18,7 +18,7 @@ const SingleBlog = ({blog, handleAddToBookMark}) => {
                     </div>
                 </div>
                 <div>
-                    <span>{rating}star</span> 
+                    <span>{rating}min</span> 
                     <button 
                     onClick={()=>handleAddToBookMark(blog)} className='ml-2'> <FaBookmark /></button>
                 </div> 
@@ -28,6 +28,7 @@ const SingleBlog = ({blog, handleAddToBookMark}) => {
                         reviews.map((rev, idx) => <span key={idx}><a href="">#{rev}</a></span>)
                     }
                 </p>
+                <button onClick={()=>handleMarkAsRead(rating)} className='text-purple-700 font-bold underline'>Mark as read</button>
         </div>
     );
 };
