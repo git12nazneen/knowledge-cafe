@@ -1,13 +1,15 @@
 import PropTypes from 'prop-types';
+import './SingleBlog.css'
+import { FaBookmark } from "react-icons/fa";
 
-const SingleBlog = ({blog}) => {
-    console.log(blog)
-    const {name, image, author, img,rating,originalPrice} = blog;
+const SingleBlog = ({blog, handleAddToBookMark}) => {
+    // console.log(blog)
+    const {name, image, author, img,rating,originalPrice,reviews} = blog;
     return (
-        <div>
-            <h2 className='text-4xl'>{name}</h2>
-            <img src={image} alt={`Cover picture of the ${name}`} />
-            <div className='flex justify-between'>
+        <div className='mb-20 bg-sky-100 py-4 rounded-2xl px-4'>
+            <h2 className='text-2xl mb-5 mt-4  font-bold'>{name}</h2>
+            <img className='w-full h-96 mb-8' src={image} alt={`Cover picture of the ${name}`} />
+            <div className='flex justify-between mb-4'>
                 <div className='flex'>
                     <img className='w-14 rounded-full' src={img} alt="" />
                     <div className='ml-3'>
@@ -16,16 +18,23 @@ const SingleBlog = ({blog}) => {
                     </div>
                 </div>
                 <div>
-                    <span>{rating}star</span>
-                </div>
+                    <span>{rating}star</span> 
+                    <button 
+                    onClick={()=>handleAddToBookMark(blog)} className='ml-2'> <FaBookmark /></button>
+                </div> 
             </div>
-          
+            <p>
+                    {
+                        reviews.map((rev, idx) => <span key={idx}><a href="">#{rev}</a></span>)
+                    }
+                </p>
         </div>
     );
 };
 
 SingleBlog.propTypes ={
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleAddToBookMark:PropTypes.func
 }
 
 export default SingleBlog;
